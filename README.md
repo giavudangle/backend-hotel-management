@@ -1,10 +1,12 @@
 # Backend ResfulAPI with admin panel using Strapi Headless CMS
+Install and start
 ```
 yarn install
 yarn develop
 or yarn start
 ```
 
+Deployed destination
 ```
   File & Image using Cloudinary
   Database deployed on MongoAtlas
@@ -29,13 +31,13 @@ Hykhang2202
 * Editor : Editors can manage and publish contents including those of other users.
 tranvu@gmail.com
 Tranvu2202
-
-API CALL EXAMPLE - HTTP REQUEST ( GET - POST - PUT - DELETE )
 ```
+API CALL EXAMPLE - HTTP REQUEST ( GET - POST - PUT - DELETE )
+
 https://vukhanghotel.herokuapp.com/rooms <br>
 https://vukhanghotel.herokuapp.com/reservations <br>
 https://vukhanghotel.herokuapp.com/promotions <br>
 https://vukhanghotel.herokuapp.com/members <br>
 https://vukhanghotel.herokuapp.com/payments <br>
 https://vukhanghotel.herokuapp.com/users <br>
-```
+
