@@ -16,7 +16,8 @@
       "required": true
     },
     "total": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
     },
     "reservation": {
       "via": "payment",

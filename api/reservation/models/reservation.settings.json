@@ -27,7 +27,8 @@
     "list_detail_reservation": {
       "type": "component",
       "repeatable": true,
-      "component": "detail-reservation.detail-reservation"
+      "component": "detail-reservation.detail-reservation",
+      "required": true
     },
     "payment": {
       "unique": true,
