@@ -1,7 +1,11 @@
-# Strapi application
+# Backend ResfulAPI with admin panel using Strapi Headless CMS
+```
+yarn install
+yarn develop
+or yarn start
+```
 
-A quick description of your strapi application
-
-SUDO 
-kms.vudang@gmail.com
+Authentication Account (root): 
+```
+kms.vudang@gmail.com 
 Giavu2202
