@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_detail_reservation_detail_reservations",
+  "info": {
+    "name": "Detail_Reservation",
+    "icon": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "deposit": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "room": {
+      "model": "room"
+    }
+  }
+}

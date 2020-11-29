@@ -1,0 +1,37 @@
+{
+  "name": "se-hotel-managament-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Headless CMS for KhangVu Mobile application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.21.0",
+    "strapi": "3.3.4",
+    "strapi-admin": "3.3.4",
+    "strapi-connector-mongoose": "3.3.4",
+    "strapi-plugin-content-manager": "3.3.4",
+    "strapi-plugin-content-type-builder": "3.3.4",
+    "strapi-plugin-email": "3.3.4",
+    "strapi-plugin-upload": "3.3.4",
+    "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-provider-upload-cloudinary": "^3.3.4",
+    "strapi-utils": "3.3.4"
+  },
+  "author": {
+    "name": "Vudang"
+  },
+  "strapi": {
+    "uuid": "3df03cd1-6cf1-41fa-8f93-c4a40598c7f2"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

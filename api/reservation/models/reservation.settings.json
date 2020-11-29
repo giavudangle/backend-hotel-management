@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservations",
+  "info": {
+    "name": "Reservation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "reservation_date": {
+      "type": "date"
+    },
+    "guest_name": {
+      "type": "string",
+      "required": true
+    },
+    "guest_personal_id": {
+      "type": "string"
+    },
+    "guest_address": {
+      "type": "string"
+    },
+    "list_detail_reservation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "detail-reservation.detail-reservation"
+    },
+    "payment": {
+      "unique": true,
+      "model": "payment",
+      "via": "reservation"
+    },
+    "guest_type": {
+      "type": "enumeration",
+      "enum": [
+        "National",
+        "International"
+      ],
+      "required": true,
+      "default": "National"
+    }
+  }
+}

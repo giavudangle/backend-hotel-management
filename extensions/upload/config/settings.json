@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name": "chemthan2202",
+        "api_key": "527444871935248",
+        "api_secret": "vbVuJyh-iYqeraIPArzm2eXh5XU"
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "name": "Payment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "payment_date": {
+      "type": "date",
+      "required": true
+    },
+    "total": {
+      "type": "biginteger"
+    },
+    "reservation": {
+      "via": "payment",
+      "model": "reservation"
+    }
+  }
+}

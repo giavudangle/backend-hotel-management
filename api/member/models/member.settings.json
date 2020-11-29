@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "name": "Member",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "boolean"
+    },
+    "born": {
+      "type": "date",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "personId": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
+    }
+  }
+}
