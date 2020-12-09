@@ -15,7 +15,7 @@ Deployed destination
 
 Deployed successfully on Heroku 
 ```
-https://vukhanghotel.herokuapp.com/dashboard
+https://dreamerhotel.herokuapp.com/dashboard
 ```
 
 Authentication Account : 
@@ -34,10 +34,10 @@ Tranvu2202
 ```
 API CALL EXAMPLE - HTTP REQUEST ( GET - POST - PUT - DELETE )
 
-https://vukhanghotel.herokuapp.com/rooms <br>
-https://vukhanghotel.herokuapp.com/reservations <br>
-https://vukhanghotel.herokuapp.com/promotions <br>
-https://vukhanghotel.herokuapp.com/members <br>
-https://vukhanghotel.herokuapp.com/payments <br>
-https://vukhanghotel.herokuapp.com/users <br>
+https://dreamerhotel.herokuapp.com/rooms <br>
+https://dreamerhotel.herokuapp.com/reservations <br>
+https://dreamerhotel.herokuapp.com/promotions <br>
+https://dreamerhotel.herokuapp.com/members <br>
+https://dreamerhotel.herokuapp.com/payments <br>
+https://dreamerhotel.herokuapp.com/users <br>
 
